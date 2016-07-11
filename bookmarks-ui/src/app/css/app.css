@@ -1,0 +1,38 @@
+@charset 'utf-8';
+@import '../../../node_modules/basscss/css/basscss.css';
+@import '../../../node_modules/react-select/dist/react-select.css';
+
+.Select {
+
+  & .Select-control {
+    background-color: transparent;
+    border-radius: 0;
+    border: 0;
+    border-bottom: 1px solid #ddd;
+    margin: 4px 0;
+  }
+
+  & .Select-input,
+  & .Select-value,
+  & .Select-placeholder {
+    padding-left: 0 !important;
+    line-height: 36px !important;
+  }
+
+  &.is-focused .Select-control {
+    border-bottom: 2px solid #074684;
+    box-shadow: none;
+  }
+
+  &.is-disabled .Select-control {
+    background-color: transparent !important;
+  }
+
+  &.error {
+    .Select-control {
+      border-bottom: 2px solid #f44336;
+      box-shadow: none;
+    }
+  }
+
+}
