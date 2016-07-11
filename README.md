@@ -13,5 +13,5 @@ Steps to run
 
 Requirements
 ===============
-* Needs Node 5.x / npm v3.x or above
+* Needs Node 6.x / npm v3.x or above
 * Should have MongoDB installed and running on port 27017
