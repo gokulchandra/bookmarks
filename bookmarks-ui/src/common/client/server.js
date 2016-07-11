@@ -2,7 +2,7 @@ import axios from 'axios'
 import Qs from 'qs'
 
 const server = axios.create({
-  baseURL: 'http://localhost:8080',
+  baseURL: 'http://localhost:5000',
   responseType: 'json',
   headers: {
     'Accept': 'application/json',

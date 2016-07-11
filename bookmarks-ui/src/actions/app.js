@@ -1,5 +1,4 @@
 import update from 'react-addons-update'
-import {replacePath} from 'redux-simple-router'
 
 const initialState = {
   initialized: false
