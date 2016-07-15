@@ -40,7 +40,7 @@ export default class ListView extends React.Component {
 }
 
 ListView.propTypes = {
-  index: React.PropTypes.number.isRequired,
-  theatre: React.PropTypes.object.isRequired,
-  addTheatreForBooking: React.PropTypes.func.isRequired
+  theatre: React.PropTypes.array.isRequired,
+  items: React.PropTypes.array.isRequired,
+  type:React.PropTypes.string.isRequired
 }

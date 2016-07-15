@@ -38,7 +38,9 @@ export default class FolderPage extends React.Component {
 }
 
 FolderPage.propTypes = {
-  actions: React.PropTypes.object.isRequired
+  actions: React.PropTypes.object.isRequired,
+  folders: React.PropTypes.object.isRequired,
+  bookmarks: React.PropTypes.object.isRequired
 }
 
 const selector = createSelector(

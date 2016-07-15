@@ -61,4 +61,6 @@ export default class Bookmark extends React.Component {
 
 Bookmark.propTypes = {
   bookmark: React.PropTypes.object.isRequired,
+  folders:React.PropTypes.object.isRequired,
+  deleteBookmark: React.PropTypes.func.isRequired
 }

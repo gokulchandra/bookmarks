@@ -11,6 +11,7 @@ import {Tab,Tabs} from 'react-bootstrap'
 import 'app/css/app.css'
 
 const FOLDER = 'folder'
+const BOOKMARK = 'bookmark'
 
 export default class HomePage extends React.Component {
 	componentWillMount() {
@@ -36,6 +37,7 @@ export default class HomePage extends React.Component {
 						<ListView 
 							items={bookmarks.list} 
 							folders={folders} 
+							type={BOOKMARK}
 							updateFolder={actions.assignBookmarkToFolder}  
 							deleteItem={actions.deleteBookmark}/>
 			    </Tab>
@@ -61,7 +63,9 @@ export default class HomePage extends React.Component {
 }
 
 HomePage.propTypes = {
-  actions: React.PropTypes.object.isRequired
+  actions: React.PropTypes.object.isRequired,
+  folders: React.PropTypes.object.isRequired,
+  bookmarks: React.PropTypes.object.isRequired
 }
 
 const selector = createSelector(

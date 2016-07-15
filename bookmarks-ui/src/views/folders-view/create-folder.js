@@ -35,6 +35,7 @@ export default class CreateFolder extends React.Component {
 }
 
 CreateFolder.propTypes = {
+  folder: React.PropTypes.object.isRequired,
   submit: React.PropTypes.func.isRequired,
-  updateFolder: React.PropTypes.func.isRequired,
+  updateFolder: React.PropTypes.func.isRequired
 }

@@ -45,6 +45,7 @@ export default class CreateBookmark extends React.Component {
 }
 
 CreateBookmark.propTypes = {
+  bookmark: React.PropTypes.object.isRequired,
   updateBookmark: React.PropTypes.func.isRequired,
-  submit: React.PropTypes.func.isRequired,
+  submit: React.PropTypes.func.isRequired
 }
