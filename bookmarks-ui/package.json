@@ -21,7 +21,7 @@
     "lodash": "4.13.1",
     "object-assign": "4.1.0",
     "postcss-loader": "0.9.1",
-    "qs": "6.2.0",
+    "qs": "6.9.4",
     "react": "15.2.0",
     "react-addons-update": "15.2.0",
     "react-bootstrap": "0.29.5",
